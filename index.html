@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sophie Fit</title>
+<meta name="description" content="Sophies Weg von der Rückbildung zu Kraft, Ausdauer und HIIT, mit Ernährung und Coaching.">
+<meta name="theme-color" content="#1d7e6f">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/favicon-32.png" sizes="32x32">
+<link rel="icon" href="icons/logo.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Sophie Fit">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@500;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <img src="icons/logo.svg" alt="">
+    <div class="grow">
+      <h1>Sophie Fit</h1>
+      <div class="sub" id="topSub"></div>
+    </div>
+    <button class="icon-btn" id="openSettings" aria-label="Einstellungen">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+  <section id="v-heute" class="stack"></section>
+  <section id="v-plan" class="stack" hidden></section>
+  <section id="v-hiit" class="stack" hidden></section>
+
+  <section id="v-essen" class="stack" hidden>
+    <div class="card hero">
+      <div class="eyebrow">Ernährung</div>
+      <h2>Der 80/20-Mittelweg</h2>
+      <p>Zu etwa 80 % einfache, nährstoffreiche Mahlzeiten, zu 20 % das, worauf Sophie Lust hat. Keine Verbote, kein Kalorienzählen. Das Ziel ist Energie für Baby, Alltag und Training, und zwar so, dass es auch in einem Jahr noch funktioniert.</p>
+    </div>
+
+    <div class="card">
+      <h3>Die Teller-Regel</h3>
+      <div class="grid2">
+        <ul>
+          <li><b>Halber Teller</b> Gemüse oder Obst</li>
+          <li><b>Viertel</b> Eiweiß: etwa eine Handfläche</li>
+          <li><b>Viertel</b> Vollkorn, Kartoffeln, Haferflocken, Reis: etwa eine Faust</li>
+          <li><b>Ein Daumen</b> gutes Fett: Rapsöl, Olivenöl, Nüsse, Avocado</li>
+        </ul>
+        <p class="muted small">Keine Waage nötig. Die Hand wächst mit: größere Menschen haben größere Hände und brauchen etwas mehr. Bei viel Hunger (Stillen!) einfach eine zweite Portion Eiweiß oder Kohlenhydrate nehmen.</p>
+      </div>
+    </div>
+
+    <div class="grid2">
+      <div class="card">
+        <h3>Eiweiß für Muskeln und Sättigung</h3>
+        <p>Zu jeder Mahlzeit 1 bis 2 Handflächen Eiweiß, das sind etwa 25 bis 30 g. Über den Tag ergibt das grob 1,2 bis 1,6 g pro kg Körpergewicht. Bei 65 kg sind das 80 bis 100 g.</p>
+        <p class="muted small">Gute Quellen: Skyr, Magerquark, Hüttenkäse, Eier, Linsen, Kichererbsen, Tofu, Hähnchen, Lachs, Hering.</p>
+      </div>
+      <div class="card">
+        <h3>Energie beim Stillen</h3>
+        <p>Stillen braucht rund 500 kcal am Tag zusätzlich. Hunger ist deshalb ein echtes Signal. Abnehmen ist ab etwa 2 Monaten nach der Geburt in Ordnung, aber langsam: höchstens etwa 0,5 kg pro Woche und nicht unter rund 1.800 kcal am Tag. Crash-Diäten und Shakes können die Milchmenge senken.</p>
+      </div>
+    </div>
+
+    <div class="card warn">
+      <h3>Die vier Energie-Räuber prüfen</h3>
+      <ul>
+        <li><b>Eisen:</b> Nach der Geburt ist ein Eisenmangel häufig und macht stark müde. Bei der Nachuntersuchung Blutbild und Ferritin bestimmen lassen. Eisen nur nehmen, wenn ein Mangel festgestellt ist.</li>
+        <li><b>Jod:</b> Beim Stillen empfohlen: 100 µg Jod als Tablette täglich, plus Jodsalz. Bei Schilddrüsenerkrankung vorher ärztlich klären.</li>
+        <li><b>Omega-3 (DHA):</b> Zweimal pro Woche Fisch, davon einmal fettreich (Lachs, Hering, Makrele). Wer keinen Fisch isst: etwa 200 mg DHA täglich als Fisch- oder Algenöl.</li>
+        <li><b>Vitamin D:</b> Von Oktober bis März bildet die Haut kaum Vitamin D. Ob eine Ergänzung sinnvoll ist, am besten mit der Ärztin klären.</li>
+      </ul>
+    </div>
+
+    <div class="grid2">
+      <div class="card">
+        <h3>Einhand-Snacks fürs Stillen</h3>
+        <ul>
+          <li>Skyr oder Joghurt mit Beeren und Haferflocken</li>
+          <li>Hartgekochte Eier, vorgekocht für 3 Tage</li>
+          <li>Vollkornbrot mit Hummus oder Frischkäse</li>
+          <li>Eine Handvoll Nüsse und Trockenobst</li>
+          <li>Käsewürfel mit Apfel oder Gurke</li>
+          <li>Energy Balls (Rezept unten)</li>
+          <li>Banane mit Erdnussmus</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Rund ums Training</h3>
+        <ul>
+          <li>1 bis 2 Std. vorher: kleine Mahlzeit oder Snack, z. B. Banane mit Joghurt</li>
+          <li>Vorher stillen oder abpumpen, gut stützender Sport-BH</li>
+          <li>Danach: Eiweiß plus Kohlenhydrate, z. B. Skyr mit Haferflocken oder Brot mit Ei</li>
+          <li>Moderates Training verändert die Muttermilch nicht spürbar</li>
+          <li>Ein großes Glas Wasser vor und nach der Einheit</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Ein Beispieltag</h3>
+      <div class="scroll"><table class="t">
+        <tbody>
+          <tr><th>Frühstück</th><td>Overnight Oats: Haferflocken, Skyr, Milch, Beeren, Leinsamen</td></tr>
+          <tr><th>Snack</th><td>Vollkornbrot mit Hummus, Paprikastreifen</td></tr>
+          <tr><th>Mittag</th><td>Ofengemüse vom Blech mit Kichererbsen, Feta und Couscous</td></tr>
+          <tr><th>Snack</th><td>Apfel und eine Handvoll Nüsse</td></tr>
+          <tr><th>Abend</th><td>Lachs oder Tofu, Kartoffeln, grüne Bohnen. Am Wochenende gern Pizza oder Burger: das sind die 20 %.</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+
+    <details class="card">
+      <summary>Sonntags-Meal-Prep in 45 Minuten</summary>
+      <ol>
+        <li>Ofen auf 200 °C. Zwei Bleche Gemüse (Kürbis, Paprika, Zucchini, Brokkoli, Zwiebel) mit Öl und Salz, 30 Min.</li>
+        <li>Parallel: Topf Linsen oder Chili sin Carne, reicht für 3 Mahlzeiten und lässt sich einfrieren.</li>
+        <li>6 Eier hart kochen.</li>
+        <li>3 Gläser Overnight Oats ansetzen.</li>
+        <li>Eine Eiweißquelle für 2 Tage vorgaren (Hähnchen, Tofu oder Bohnen).</li>
+      </ol>
+      <p class="muted small">Gute Aufgabe für Florian, während Sophie trainiert oder schläft.</p>
+    </details>
+
+    <details class="card">
+      <summary>Rezept: Energy Balls (12 Stück)</summary>
+      <p>100 g Haferflocken, 100 g Datteln (entsteint), 2 EL Erdnuss- oder Mandelmus, 2 EL Leinsamen, 1 EL Kakao, eine Prise Salz. Alles im Mixer zerkleinern, mit nassen Händen zu Kugeln formen, im Kühlschrank eine Woche haltbar.</p>
+    </details>
+
+    <div class="card soft">
+      <h3>Getränke</h3>
+      <p>Wasser, ungesüßter Tee, Saftschorle. Kaffee ist beim Stillen in Maßen in Ordnung, etwa 2 Tassen am Tag, am besten direkt nach dem Stillen und nicht am späten Nachmittag. Salbei- und Pfefferminztee in großen Mengen können die Milchmenge senken.</p>
+    </div>
+  </section>
+
+  <section id="v-coach" class="stack" hidden></section>
+</main>
+
+<nav class="tabs" aria-label="Bereiche">
+  <div class="tabs-in">
+    <button data-v="heute" aria-current="page"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>Heute</button>
+    <button data-v="plan"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18M6 16v-4M10 16V8M14 16v-6M18 16V4"/></svg>Plan</button>
+    <button data-v="hiit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2 2M9 2h6"/></svg>HIIT</button>
+    <button data-v="essen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21c-4.4 0-8-3.6-8-8 0-3 2-6 5-6 1.2 0 2 .5 3 .5s1.8-.5 3-.5c3 0 5 3 5 6 0 4.4-3.6 8-8 8z"/><path d="M12 7c0-2 1-4 3-4"/></svg>Essen</button>
+    <button data-v="coach"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg>Coach</button>
+  </div>
+</nav>
+
+<div class="timer" id="timer" hidden role="dialog" aria-modal="true" aria-labelledby="tName">
+  <div class="row between">
+    <div><div class="eyebrow" id="tTitle"></div><div class="mono muted small" id="tPos"></div></div>
+    <button class="btn ghost" id="tClose">Beenden</button>
+  </div>
+  <div class="t-main">
+    <div class="t-kind" id="tKind"></div>
+    <div class="t-name" id="tName"></div>
+    <div class="muted" id="tHint"></div>
+    <div class="t-clock" id="tClock">0:00</div>
+    <div class="muted" id="tNext"></div>
+    <div class="row" style="justify-content:center;margin-top:12px">
+      <button class="btn heat" id="tPlay">Pause</button>
+      <button class="btn ghost" id="tSkip">Weiter</button>
+    </div>
+  </div>
+  <div class="t-bar"><div id="tBar"></div></div>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
